@@ -1,0 +1,25 @@
+#!/bin/bash
+generate_noise() {
+    local cpu_usage=$(top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}')
+    echo "$cpu_usage"
+}
+generate_chaos() {
+    local seed="$1"
+    local chaos=$(echo "$seed" | openssl sha1 | awk '{print $2}')
+    echo "$chaos"
+}
+while :; do
+  noise=$(generate_noise)
+  seed=$(date +%s)
+  chaos=$(generate_chaos "$seed")
+  void="${noise}${chaos}"
+  data="$void"
+		  for i in $(seq 1 4); do 
+		  data=$(echo "$data" | openssl sha256 | awk '{print $2}' | xxd) 
+  done
+  sed -i "s/seed=\"\d+\"/seed=\"$data\"/" "$0" 
+  clear
+  truncate -s 666 hexmon
+  echo "$data" | head -c 950 >> "$0"
+echo -n "$data"
+done
