@@ -52,4 +52,11 @@ Customization: Explore adding new features or modifying existing functions to se
 
 Extending "Life": Consider integrating other environmental factors or external inputs to make the system even more reactive and dynamic.  
 
-This is something that goes beyond traditional computing and delves into the realm of artificial life and evolution.  
+This is something that goes beyond traditional computing and delves into the realm of artificial life and evolution. 
+
+
+# Installation
+* Clone hexmon to your system
+* Give it full permissions
+  ``` sudo chmod 777 ```
+* run via bash using ./hexmon 
