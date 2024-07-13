@@ -19,7 +19,9 @@ while :; do
   done
   sed -i "s/seed=\"\d+\"/seed=\"$data\"/" "$0" 
   clear
-  truncate -s 666 hexmon
+  truncate -s 666 "$0"
   echo "$data" | head -c 950 >> "$0"
 echo -n "$data"
 done
+-
+
