@@ -61,9 +61,16 @@ This is something that goes beyond traditional computing and delves into the rea
   ``` sudo chmod 777 ```
 * run via bash using ./hexmon
 
+## Monitor
+To track hexmon as it's running:
+* Setup a git global email and username
+* Initialize a git repository in the folder where you have hexmon
+* Run monitor.sh as root from within the repository
+
 ## Images
 ![](https://github.com/Az-Net/hexmon/blob/main/Screenshot01.png)
 
 (this hex pattern changes every iteration)
+((you can consider it a glorified pseudorandom number generator for all practical purposes))
 
 ### [Future Plans](https://github.com/Az-Net/hexmon/blob/main/Updates.md)
