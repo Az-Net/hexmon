@@ -67,6 +67,8 @@ To track hexmon as it's running:
 * Initialize a git repository in the folder where you have hexmon
 * Run monitor.sh as root from within the repository
 
+[Monitor Colors](https://github.com/Az-Net/hexmon/blob/main/Color.md)
+
 ## Images
 ![](https://github.com/Az-Net/hexmon/blob/main/Screenshot01.png)
 
