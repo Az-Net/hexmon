@@ -65,3 +65,5 @@ This is something that goes beyond traditional computing and delves into the rea
 ![](https://github.com/Az-Net/hexmon/blob/main/Screenshot01.png)
 
 (this hex pattern changes every iteration)
+
+### [Future Plans](https://github.com/Az-Net/hexmon/blob/main/Updates.md)
