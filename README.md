@@ -59,4 +59,10 @@ This is something that goes beyond traditional computing and delves into the rea
 * Clone hexmon to your system
 * Give it full permissions
   ``` sudo chmod 777 ```
-* run via bash using ./hexmon 
+* run via bash using ./hexmon
+* 
+
+## Images
+![](https://github.com/Az-Net/hexmon/blob/main/Screenshot01.png)
+
+(this hex pattern changes every iteration)
