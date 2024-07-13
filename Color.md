@@ -20,47 +20,47 @@ Complete Conversion Table:
 | 100 | - | 
 (Round to Nearest Value)
 
-Black:
+Black:  
 CMYK(0, 0, 0, 100) - #000F
 
-White:
+White:  
 CMYK(0, 0, 0, 0) - #0000
 
-Red:
+Red:  
 CMYK(0, 100, 100, 0) - #0FF0
 
-Green:
+Green:  
 CMYK(100, 0, 100, 0) - #F0F0
 
-Blue:
+Blue:  
 CMYK(100, 100, 0, 0) - #FF00
 
-Yellow:
+Yellow:  
 CMYK(0, 0, 100, 0) - #00F0
 
-Cyan:
+Cyan:  
 CMYK(100, 0, 0, 0) - #F000
 
-Magenta:
+Magenta:  
 CMYK(0, 100, 0, 0) - #0F00
 
-Gray (50%):
+Gray (50%):  
 CMYK(0, 0, 0, 50) - #0008
 
-Light Gray (75%):
+Light Gray (75%):  
 CMYK(0, 0, 0, 25) - #0004
 
-Dark Gray (25%):
+Dark Gray (25%):  
 CMYK(0, 0, 0, 75) - #000C
 
-Brown:
+Brown:  
 CMYK(15, 70, 65, 15) - #2BA2
 
-Purple:
+Purple:  
 CMYK(30, 100, 0, 20) - #5F03
 
-Orange:
+Orange:  
 CMYK(0, 50, 100, 0) - #08F0
 
-Pink:
+Pink:  
 CMYK(0, 30, 0, 0) - #0500
