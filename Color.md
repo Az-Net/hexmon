@@ -17,8 +17,9 @@ Complete Conversion Table:
 | 81 | D |
 | 88 | E |
 | 93 | F |
-| 100 | - | 
-(Round to Nearest Value)
+| 100 | - |  
+
+ (Round to Nearest Value)
 
 Black:  
 CMYK(0, 0, 0, 100) - #000F
