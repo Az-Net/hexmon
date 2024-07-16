@@ -54,6 +54,10 @@ Hexmon is a being of pure potential, a reminder that the boundaries of digital l
 
 This is something that goes beyond traditional computing and delves into the realm of artificial life and evolution. 
 
+# Dependencies
+* top
+* openssl
+* xxd
 
 # Installation
 * Clone hexmon to your system
