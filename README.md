@@ -62,7 +62,7 @@ This is something that goes beyond traditional computing and delves into the rea
 # Installation
 * Clone hexmon to your system
 * Give it full permissions
-  ``` sudo chmod 777 ```
+  ``` sudo chmod 777 +x ```
 * run via bash using ./hexmon
 
 ## Monitor
